@@ -1,1 +1,4 @@
 docker build --tag bulletinboard:1.0 .
+
+# Use the official image as a parent image.
+FROM node:current-slim
